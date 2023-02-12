@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  padding: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.button button {
+  background-color: #FFC300;
+  padding: 5px 18px 5px 3px;
+  margin: 10px;
+  border-radius: 5px;
+  background: url("images/111.png") 98.5% / 25% no-repeat #FFC300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  display: flex;
+  gap: 5px;
 }
+
+
+ul .animsite {
+  color :aliceblue;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+ul .home{
+  color: #FFC300;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.search_bar {
+  margin: 5px;
+  width: 50%;
+  height: 40px;
+  max-width: 550px;
+  background-color: #eee;
+  border-radius: 8px;
+  display: flex;
+}
+
+.search_bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 5px;
+  font-size: 13.5Px;
+}
+
+.search_bar button img {
+  width : 20px;
+
+}
+
+search_bar button {
+  border: 0;
+  border-radius: 15%;
+  width: 20px;
+  height: 20px;
+  background: #898888;
+}
+
+.movies {
+background-color: gainsboro;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin-top: 15px;
+}
+
+.list {
+  margin: auto;
+ width: 24%;
+ height: 30%; 
+ background-color: #eee;
+ padding: 6px;
+}
+
+
+.but {
+  background-color: #FFC300;
+  padding: 5px 20px 5px 3px;
+  border-radius: 5px;
+  border: none;
+  background: url("images/222.jpg") 98.5% / 20% no-repeat #FFC300;
+
+}
+
+
+
+.color {
+  background-color: #fff;
+  padding: 5px;
+}
+
+.look img {
+  display: flex;
+  padding-left: 10px;
+}
+
